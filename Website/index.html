@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our 2025 Recap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-hearts">
+        <span>•</span>
+        <span>•</span>
+        <span>•</span>
+    </div>
+
+    <button id="home-btn" class="home-btn-hidden" onclick="goToHome()">Go to Home</button>
+
+    <!-- Home Page -->
+    <section id="page1" class="screen active">
+        <div class="floating-images">
+            <div class="float-img img1"><img src="picture/1.jpg" alt="Memory 1"></div>
+            <div class="float-img img2"><img src="picture/2.jpg" alt="Memory 2"></div>
+            <div class="float-img img3"><img src="picture/3.jpg" alt="Memory 3"></div>
+            <div class="float-img img4"><img src="picture/4.jpg" alt="Memory 4"></div>
+            <div class="float-img img5"><img src="picture/5.jpg" alt="Memory 5"></div>
+            <div class="float-img img6"><img src="picture/6.jpg" alt="Memory 6"></div>
+            <div class="float-img img7"><img src="picture/7.jpg" alt="Memory 7"></div>
+            <div class="float-img img8"><img src="picture/8.jpg" alt="Memory 8"></div>
+            <div class="float-img img9"><img src="picture/9.jpg" alt="Memory 9"></div>
+            <div class="float-img img10"><img src="picture/10.jpg" alt="Memory 10"></div>
+            <div class="float-img img11"><img src="picture/11.jpg" alt="Memory 11"></div>
+            <div class="float-img img12"><img src="picture/12.jpg" alt="Memory 12"></div>
+            <div class="float-img img13"><img src="picture/13.jpg" alt="Memory 13"></div>
+            <div class="float-img img14"><img src="picture/14.jpg" alt="Memory 14"></div>
+            <div class="float-img img15"><img src="picture/15.jpg" alt="Memory 15"></div>
+        </div>
+        <div class="content-wrapper">
+            <div class="heart-icon">—</div>
+            <h1 class="script-font">To My Favorite Person</h1>
+            <p>Our 2025!</p>
+            <button class="main-btn" onclick="openStory()">Open Our Story</button>
+        </div>
+    </section>
+
+    <!-- Scrollable Story Section -->
+    <div id="story-container" class="story-container hidden">
+        <div class="scroll-indicator">Scroll down ↓</div>
+        
+        <!-- Page 2 -->
+        <section id="page2" class="story-page">
+            <h2 class="script-font">Random Laags with U</h2>
+            <div class="grid-container-five">
+                <div class="polaroid-frame p2-1" onclick="openModal(1)">
+                    <div class="polaroid-image">
+                        <img src="picture/16.jpg" alt="Memory 16">
+                    </div>
+                    <div class="polaroid-caption">CLick me</div>
+                </div>
+                <div class="polaroid-frame p2-2" onclick="openModal(2)">
+                    <div class="polaroid-image">
+                        <img src="picture/17.jpg" alt="Memory 17">
+                    </div>
+                    <div class="polaroid-caption">Me toooooo</div>
+                </div>
+                <div class="polaroid-frame p2-3" onclick="openModal(3)">
+                    <div class="polaroid-image">
+                        <img src="picture/18.jpg" alt="Memory 18">
+                    </div>
+                    <div class="polaroid-caption">ako saddd i click pod me</div>
+                </div>
+                <div class="polaroid-frame p2-4" onclick="openModal(4)">
+                    <div class="polaroid-image">
+                        <img src="picture/19.jpg" alt="Memory 19">
+                    </div>
+                    <div class="polaroid-caption">heeeeyyyy</div>
+                </div>
+                <div class="polaroid-frame p2-5" onclick="openModal(5)">
+                    <div class="polaroid-image">
+                        <img src="picture/20.jpg" alt="Memory 20">
+                    </div>
+                    <div class="polaroid-caption">pst</div>
+                </div>
+            </div>
+            <div class="message-area">
+                <p>U made my 2025 somehow memorable from random laags, random eats sa labas, cooking with/for u, and etc that we do together.</p>
+            </div>
+        </section>
+
+        <!-- Page 3 -->
+        <section id="page3" class="story-page">
+            <h2 class="script-font">Captured in Motion</h2>
+            <div class="grid-container-ten">
+                <div class="polaroid-frame p3-1" onclick="openModal(6)">
+                    <div class="polaroid-image">
+                        <img src="picture/21.jpg" alt="Memory 21">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-2" onclick="openModal(7)">
+                    <div class="polaroid-image">
+                        <img src="picture/22.jpg" alt="Memory 22">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-3" onclick="openModal(8)">
+                    <div class="polaroid-image">
+                        <img src="picture/23.jpg" alt="Memory 23">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-4" onclick="openModal(9)">
+                    <div class="polaroid-image">
+                        <img src="picture/24.jpg" alt="Memory 24">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-5" onclick="openModal(10)">
+                    <div class="polaroid-image">
+                        <img src="picture/25.jpg" alt="Memory 25">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-6" onclick="openModal(11)">
+                    <div class="polaroid-image">
+                        <img src="picture/26.jpg" alt="Memory 26">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-7" onclick="openModal(12)">
+                    <div class="polaroid-image">
+                        <img src="picture/27.jpg" alt="Memory 27">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-8" onclick="openModal(13)">
+                    <div class="polaroid-image">
+                        <img src="picture/28.jpg" alt="Memory 28">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-9" onclick="openModal(14)">
+                    <div class="polaroid-image">
+                        <img src="picture/29.jpg" alt="Memory 29">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+                <div class="polaroid-frame p3-10" onclick="openModal(15)">
+                    <div class="polaroid-image">
+                        <img src="picture/30.jpg" alt="Memory 30">
+                    </div>
+                    <div class="polaroid-caption">Click Me!!!!</div>
+                </div>
+            </div>
+            <div class="message-area">
+                <p>From quiet mornings to spontaneous laag, every captured moment tells our beautiful story. Each photo holds a memory that makes my heart full (ChatGPT, 2025).</p>
+            </div>
+        </section>
+
+        <!-- Page 4 -->
+        <section id="page4" class="story-page">
+            <h2 class="script-font">Our 2025 Soundtrack</h2>
+            <div class="spotify-card">
+                <div class="qr-container">
+                    <div class="qr-image" onclick="openQRModal()">
+                        <img src="picture/spcode.png" alt="Spotify Playlist QR Code">
+                    </div>
+                    <div class="qr-message">
+                        <h3>Click the qr code to scan to listen to our playlist</h3>
+                        <p>My favorite songs that reminds me of you/us</p>
+                        <div class="playlist-info">
+                            
+                        </div>
+                        <div class="playlist-link">
+                            <a href="https://open.spotify.com/playlist/2hrQA7Yag9apNXuueTRXXp?pi=RPx33NURRf-gM" 
+                               target="_blank" 
+                               class="spotify-btn">
+                                <span></span>Open in Spotify
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 5 -->
+        <section id="page5" class="story-page">
+            <div class="collage-bg-32">
+                <!-- Images 1-32 -->
+                <div class="collage-img c-img1"><img src="picture/1.jpg" alt="Memory 1"></div>
+                <div class="collage-img c-img2"><img src="picture/2.jpg" alt="Memory 2"></div>
+                <div class="collage-img c-img3"><img src="picture/3.jpg" alt="Memory 3"></div>
+                <div class="collage-img c-img4"><img src="picture/4.jpg" alt="Memory 4"></div>
+                <div class="collage-img c-img5"><img src="picture/5.jpg" alt="Memory 5"></div>
+                <div class="collage-img c-img6"><img src="picture/6.jpg" alt="Memory 6"></div>
+                <div class="collage-img c-img7"><img src="picture/7.jpg" alt="Memory 7"></div>
+                <div class="collage-img c-img8"><img src="picture/8.jpg" alt="Memory 8"></div>
+                <div class="collage-img c-img9"><img src="picture/9.jpg" alt="Memory 9"></div>
+                <div class="collage-img c-img10"><img src="picture/10.jpg" alt="Memory 10"></div>
+                <div class="collage-img c-img11"><img src="picture/11.jpg" alt="Memory 11"></div>
+                <div class="collage-img c-img12"><img src="picture/12.jpg" alt="Memory 12"></div>
+                <div class="collage-img c-img13"><img src="picture/13.jpg" alt="Memory 13"></div>
+                <div class="collage-img c-img14"><img src="picture/14.jpg" alt="Memory 14"></div>
+                <div class="collage-img c-img15"><img src="picture/15.jpg" alt="Memory 15"></div>
+                <div class="collage-img c-img16"><img src="picture/16.jpg" alt="Memory 16"></div>
+                <div class="collage-img c-img17"><img src="picture/17.jpg" alt="Memory 17"></div>
+                <div class="collage-img c-img18"><img src="picture/18.jpg" alt="Memory 18"></div>
+                <div class="collage-img c-img19"><img src="picture/19.jpg" alt="Memory 19"></div>
+                <div class="collage-img c-img20"><img src="picture/20.jpg" alt="Memory 20"></div>
+                <div class="collage-img c-img21"><img src="picture/21.jpg" alt="Memory 21"></div>
+                <div class="collage-img c-img22"><img src="picture/22.jpg" alt="Memory 22"></div>
+                <div class="collage-img c-img23"><img src="picture/23.jpg" alt="Memory 23"></div>
+                <div class="collage-img c-img24"><img src="picture/24.jpg" alt="Memory 24"></div>
+                <div class="collage-img c-img25"><img src="picture/25.jpg" alt="Memory 25"></div>
+                <div class="collage-img c-img26"><img src="picture/26.jpg" alt="Memory 26"></div>
+                <div class="collage-img c-img27"><img src="picture/27.jpg" alt="Memory 27"></div>
+                <div class="collage-img c-img28"><img src="picture/28.jpg" alt="Memory 28"></div>
+                <div class="collage-img c-img29"><img src="picture/29.jpg" alt="Memory 29"></div>
+                <div class="collage-img c-img30"><img src="picture/30.jpg" alt="Memory 30"></div>
+                <div class="collage-img c-img31"><img src="picture/31.jpg" alt="Memory 31"></div>
+                <div class="collage-img c-img32"><img src="picture/32.jpg" alt="Memory 32"></div>
+            </div>
+            <div class="final-message-box">
+                <h1 class="script-font">2025 with you</h1>
+                <p>Thank you for being part of my 2025. For taking care of me when I was sick, and for laughing with me when I got better. For all the meals we shared (Fancy, Street-foods, Takeouts, Homecook) and eaten together. You made my 2025 just as beautiful as the day I met you. You filled my heart with joy and so much love. Thank you for everything, I hope you make it in life and let 2026 be YOUR year.</p>
+                <p>loved,</p>
+                <p class="signature">Ian Carl Solana</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal for zoomed images -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div class="polaroid-zoom">
+                <div id="modalImage" class="modal-image">Photo</div>
+                <div id="modalCaption" class="polaroid-caption">A beautiful moment...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QR Modal -->
+    <div id="qrModal" class="modal" onclick="closeQRModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close-modal" onclick="closeQRModal()">&times;</span>
+            <div class="qr-fullsize-container">
+                <img src="picture/spcode.png" alt="Spotify Playlist QR Code Full Size" class="qr-fullsize">
+                <div class="qr-fullsize-caption">Scan this QR code to open our Spotify playlist</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
